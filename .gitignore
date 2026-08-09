@@ -22,6 +22,7 @@ videos/
 terrain/gt30e060n40_UTM.tif
 terrain/gt30e060n40.tif
 *.log
+terrain/texture.png
 
 *.tmp
 *.temp
