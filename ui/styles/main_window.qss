@@ -1,0 +1,523 @@
+/* =========================================================
+   GEOVISTA DARK INTERACTIVE THEME
+   ========================================================= */
+
+
+/* =========================================================
+   APPLICATION
+   ========================================================= */
+
+QMainWindow {
+    background-color: #080C11;
+}
+
+QWidget {
+    color: #D8E4EC;
+    font-family: "Segoe UI";
+    font-size: 12px;
+}
+
+QWidget#centralWidget {
+    background-color: #080C11;
+}
+
+
+/* =========================================================
+   HEADER
+   ========================================================= */
+
+QFrame#headerFrame {
+    background-color: #101820;
+    border: 1px solid #2B3B48;
+    border-radius: 10px;
+}
+
+QLabel#logoLabel {
+    color: #20A8FF;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+QLabel#titleLabel {
+    color: #F1F7FA;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+QLabel#subtitleLabel {
+    color: #728695;
+    font-size: 10px;
+}
+
+QLabel#offlineLabel {
+    color: #A0B2BE;
+    background-color: #151E26;
+    border: 1px solid #394954;
+    border-radius: 6px;
+    padding: 6px 12px;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+QLabel#offlineLabel:hover {
+    color: #D8E8F2;
+    border: 1px solid #507080;
+    background-color: #1B2730;
+}
+
+QLabel#readyLabel {
+    color: #55E38B;
+    background-color: #10291D;
+    border: 1px solid #277047;
+    border-radius: 6px;
+    padding: 6px 12px;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+
+/* =========================================================
+   CONTROL BAR
+   ========================================================= */
+
+QFrame#controlFrame {
+    background-color: #101820;
+    border: 1px solid #2B3B48;
+    border-radius: 9px;
+}
+
+QLabel#dataStatus {
+    color: #8297A5;
+    background-color: #141D25;
+    border: 1px solid #283944;
+    border-radius: 6px;
+    padding: 6px 12px;
+}
+
+
+/* =========================================================
+   SECTION PANELS
+   ========================================================= */
+
+QFrame#sectionFrame {
+    background-color: #111920;
+    border: 1px solid #2C3C48;
+    border-radius: 10px;
+}
+
+QFrame#sectionFrame:hover {
+    border: 1px solid #3B5667;
+}
+
+
+/* =========================================================
+   SECTION TITLE
+   ========================================================= */
+
+QLabel#sectionTitle {
+    color: #EAF5FB;
+    background-color: #18232C;
+    border-left: 4px solid #2098E0;
+    border-radius: 5px;
+    padding: 6px 10px;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+QLabel#sectionTitle:hover {
+    color: #FFFFFF;
+    background-color: #1D2C37;
+}
+
+
+/* =========================================================
+   LOAD DATA BUTTON
+   ========================================================= */
+
+QPushButton#loadButton {
+    background-color: #075EA8;
+    color: #FFFFFF;
+    border: 1px solid #168DE0;
+    border-radius: 7px;
+    padding: 8px 18px;
+    min-height: 30px;
+    font-weight: bold;
+}
+
+QPushButton#loadButton:hover {
+    background-color: #0876D1;
+    border: 1px solid #43B5FF;
+}
+
+QPushButton#loadButton:pressed {
+    background-color: #06477D;
+    padding-top: 9px;
+}
+
+
+/* =========================================================
+   PATH BUTTON
+   ========================================================= */
+
+QPushButton#pathButton {
+    background-color: #122A3C;
+    color: #5EC2FF;
+    border: 1px solid #246B92;
+    border-radius: 7px;
+    padding: 8px 18px;
+    min-height: 30px;
+    font-weight: bold;
+}
+
+QPushButton#pathButton:hover {
+    background-color: #193A50;
+    color: #8BD7FF;
+    border: 1px solid #36A9EC;
+}
+
+QPushButton#pathButton:pressed {
+    background-color: #0D202F;
+}
+
+
+/* =========================================================
+   VIEW DATA BUTTON
+   ========================================================= */
+
+QPushButton#viewButton {
+    background-color: #10363D;
+    color: #56DCE9;
+    border: 1px solid #26808B;
+    border-radius: 7px;
+    padding: 8px 18px;
+    min-height: 30px;
+    font-weight: bold;
+}
+
+QPushButton#viewButton:hover {
+    background-color: #174C55;
+    color: #8AEAF2;
+    border: 1px solid #3DD4E4;
+}
+
+QPushButton#viewButton:pressed {
+    background-color: #0C292F;
+}
+
+
+/* =========================================================
+   OTHER BUTTONS
+   ========================================================= */
+
+QPushButton {
+    background-color: #19232C;
+    color: #D8E4EC;
+    border: 1px solid #354754;
+    border-radius: 7px;
+    padding: 7px 14px;
+    min-height: 28px;
+}
+
+QPushButton:hover {
+    background-color: #22333F;
+    border: 1px solid #4B7187;
+    color: #FFFFFF;
+}
+
+QPushButton:pressed {
+    background-color: #101820;
+}
+
+
+/* =========================================================
+   INFORMATION HEADINGS
+   ========================================================= */
+
+QLabel#infoHeading {
+    color: #31B1FF;
+    font-size: 10px;
+    font-weight: bold;
+    padding: 8px 2px 5px 2px;
+}
+
+
+/* =========================================================
+   INFORMATION LABELS
+   ========================================================= */
+
+QLabel#infoLabel {
+    color: #B4C5CF;
+    background-color: #171F27;
+    border: 1px solid #293A46;
+    border-radius: 6px;
+    padding: 7px;
+}
+
+QLabel#infoLabel:hover {
+    color: #E4F2F9;
+    background-color: #1D2A34;
+    border: 1px solid #3C6275;
+}
+
+
+/* =========================================================
+   GREEN STATUS
+   ========================================================= */
+
+QLabel#statusGreen {
+    color: #62E695;
+    background-color: #102A1D;
+    border: 1px solid #287448;
+    border-radius: 6px;
+    padding: 7px;
+    font-weight: bold;
+}
+
+QLabel#statusGreen:hover {
+    background-color: #153A27;
+    border: 1px solid #3BA763;
+}
+
+
+/* =========================================================
+   YELLOW STATUS
+   ========================================================= */
+
+QLabel#statusYellow {
+    color: #FFD95A;
+    background-color: #30270E;
+    border: 1px solid #76631A;
+    border-radius: 6px;
+    padding: 7px;
+    font-weight: bold;
+}
+
+QLabel#statusYellow:hover {
+    background-color: #403510;
+    border: 1px solid #A28725;
+}
+
+
+/* =========================================================
+   RED STATUS
+   ========================================================= */
+
+QLabel#statusRed {
+    color: #FF6974;
+    background-color: #32161A;
+    border: 1px solid #81323B;
+    border-radius: 6px;
+    padding: 7px;
+    font-weight: bold;
+}
+
+QLabel#statusRed:hover {
+    background-color: #431C21;
+    border: 1px solid #A6404A;
+}
+
+
+/* =========================================================
+   OBJECT CARDS
+   ========================================================= */
+
+QFrame#objectCard {
+    background-color: #151E26;
+    border: 1px solid #30414D;
+    border-radius: 7px;
+}
+
+QFrame#objectCard:hover {
+    background-color: #1A2933;
+    border: 1px solid #258BC1;
+}
+
+QLabel#objectName {
+    color: #EDF6FA;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+QLabel#objectDetail {
+    color: #8296A3;
+    font-size: 9px;
+}
+
+
+/* =========================================================
+   MAP TOOLBAR
+   ========================================================= */
+
+QLabel#mapTitle {
+    color: #42B9FF;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 3px;
+}
+
+QLabel#mapStatus {
+    color: #738894;
+    font-size: 10px;
+}
+
+
+/* =========================================================
+   MAP
+   ========================================================= */
+
+QFrame#mapPanel {
+    background-color: #0A1117;
+    border: 1px solid #334650;
+    border-radius: 8px;
+}
+
+QFrame#mapPanel:hover {
+    border: 1px solid #39758E;
+}
+
+
+/* =========================================================
+   VIDEO
+   ========================================================= */
+
+QFrame#videoFrame {
+    background-color: #06090C;
+    border: 1px solid #303F4A;
+    border-radius: 8px;
+}
+
+QFrame#videoFrame:hover {
+    border: 1px solid #228ED2;
+}
+
+
+/* =========================================================
+   ACTIVITY
+   ========================================================= */
+
+QLabel#eventLog {
+    color: #9EB2BE;
+    background-color: #0C1319;
+    border: 1px solid #293B46;
+    border-radius: 7px;
+    padding: 9px;
+}
+
+QLabel#eventLog:hover {
+    color: #C7D9E2;
+    border: 1px solid #3A5969;
+}
+
+
+/* =========================================================
+   SPLITTER
+   ========================================================= */
+
+QSplitter::handle {
+    background-color: #202D36;
+}
+
+QSplitter::handle:hover {
+    background-color: #2189C7;
+}
+
+QSplitter::handle:horizontal {
+    width: 3px;
+}
+
+QSplitter::handle:vertical {
+    height: 3px;
+}
+
+
+/* =========================================================
+   SCROLL AREA
+   ========================================================= */
+
+QScrollArea {
+    background-color: transparent;
+    border: none;
+}
+
+QScrollArea QWidget {
+    background-color: transparent;
+}
+
+
+/* =========================================================
+   SCROLLBAR
+   ========================================================= */
+
+QScrollBar:vertical {
+    background-color: #0B1116;
+    width: 9px;
+    border-radius: 4px;
+    margin: 2px;
+}
+
+QScrollBar::handle:vertical {
+    background-color: #354753;
+    border-radius: 4px;
+    min-height: 30px;
+}
+
+QScrollBar::handle:vertical:hover {
+    background-color: #218AC7;
+}
+
+QScrollBar::add-line:vertical,
+QScrollBar::sub-line:vertical {
+    height: 0px;
+}
+
+QScrollBar:horizontal {
+    background-color: #0B1116;
+    height: 9px;
+    border-radius: 4px;
+}
+
+QScrollBar::handle:horizontal {
+    background-color: #354753;
+    border-radius: 4px;
+}
+
+QScrollBar::handle:horizontal:hover {
+    background-color: #218AC7;
+}
+
+
+/* =========================================================
+   TOOLTIP
+   ========================================================= */
+
+QToolTip {
+    background-color: #17242D;
+    color: #F2F8FB;
+    border: 1px solid #238DCE;
+    padding: 6px 9px;
+    border-radius: 5px;
+}
+
+
+/* =========================================================
+   MESSAGE BOX
+   ========================================================= */
+
+QMessageBox {
+    background-color: #111920;
+}
+
+QMessageBox QLabel {
+    color: #DCE8EE;
+}
+
+QMessageBox QPushButton {
+    background-color: #145F9D;
+    color: #FFFFFF;
+    border: 1px solid #2189D0;
+    min-width: 80px;
+}
+
+QMessageBox QPushButton:hover {
+    background-color: #1877C0;
+}
